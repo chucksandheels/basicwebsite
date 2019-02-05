@@ -1,0 +1,192 @@
+/*Search graphic by <a href="undefined">undefined</a> from <a href="https://logomakr.com/">Logomakr</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Maker">LogoMaker.com</a> https://logomakr.com/0eIq9Q0eIq9Q*/
+/*thumb tack graphic by <a href="https://thenounproject.com/mmpezzi">tnp_mmpezzi</a> from <a href="https://thenounproject.com/">TheNounProject</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Maker">LogoMaker.com</a> https://logomakr.com/9UoMmJ9UoMmJ*/
+/*like graphic by <a href="https://thenounproject.com/maxim221">tnp_maxim221</a> from <a href="https://thenounproject.com/">TheNounProject</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Check out the new logo that I created on <a href="http://logomakr.com" title="Logo Maker">LogoMaker.com</a> https://logomakr.com/9kI3Nf9kI3Nf*/
+body{
+    font: arial, helvetica, sans-serif;
+}
+#container {
+    width: 1050px;
+/*    border: 1px solid grey;*/
+    margin: 0 auto;
+    
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+#brand{
+    float: left;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+    
+}
+
+#searchbox{
+    float: right;
+    background: linear-gradient(green,gold);
+    background: -webkits-linear-gradient(green,gold);
+    background: -o-linear-gradient(green,gold);
+    background: -moz-linear-gradient(green,gold);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+}
+
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: orangered;
+    background: white url(images/search.png) right center no-repeat;
+    border: 1px solid purple;
+}
+
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: black;
+    font-size: 15px;
+}
+
+.clear{
+    clear: both;
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(yellowgreen,orange);
+    background: -webkits-linear-gradient(yellowgreen,orange);
+    background: -o-linear-gradient(yellowgreen,orange);
+    background: -moz-linear-gradient(yellowgreen,orange);
+    padding: 7px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    ;padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid #861BBF;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #861BBF;
+    line-height: 30px;
+    -webkits-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+    
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+    
+}
+
+#introduction{
+    background: linear-gradient(orange, purple);
+    background: -webkits-linear-gradient(orange, purple);
+    background: -o-linear-gradient(orange, purple);
+    background: -moz-linear-gradient(orange, purple);
+    padding: 30px;
+    margin: 15px 0;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: floralwhite;
+    font-weight: normal;
+}
+
+#introduction p{
+    font-size: 20px;
+    color: floralwhite;
+    text-align: justify
+}
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    color: crimson;
+    font-size: 25px;
+}
+
+.sidebar ul{
+    padding-top: 8px;
+}
+#leftsidebar ul li{
+    padding: 4px 5px; 6px 10px;
+    list-style-image: url(images/goldpin.png);
+}
+
+#rightsidebar ul li{
+    padding: 17px 0 17px 50px;
+    background: url(images/thumb.png) no-repeat left center;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #861BBF;
+     -webkits-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    color: darkred;
+    
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float: right
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(orange,purple);
+    background: -webkits-linear-gradient(orange,purple);
+    background: -o-linear-gradient(orange,purple);
+    background: -moz-linear-gradient(orange,purple);
+    padding: 10px 30px;
+    margin-top: 15px;
+}
